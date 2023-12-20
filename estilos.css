@@ -1,0 +1,339 @@
+ 
+  th, td {
+    text-align: center;
+    padding: 8px;
+    
+  }
+  
+  img:hover {
+    filter: grayscale(100%);
+    
+    filter: none;
+    -webkit-filter: none;
+  }
+
+  
+
+  .collage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .imagen {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  
+  #mas-imagenes {
+    text-align: center;
+  }
+  
+  #mas-imagenes button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #da590f;
+  }
+  
+  .oculto {
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .formulario-contenido{
+    background-color:#C4dfe6;
+    width: 98%;
+    margin: 0 auto;
+    border: 2px solid #0d84b3; /* Agregar borde */
+    border-radius: 10px; /* Redondear bordes */
+    box-shadow: 0 0 20px #20e2f0; /* Agregar sombra */
+    padding: 20px; /* Agregar espaciado interno */
+  }
+  
+
+  .formulario-reserva {
+    background-color:#66a5ad; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+    text-align: center;
+
+  }
+  
+  .formulario-reserva h2 {
+    font-size: 24px; /* Tamaño de fuente del título */
+    margin-bottom: 20px; /* Espaciado inferior */
+    color:dark;
+  }
+  
+  .formulario-reserva label {
+    display: block; /* Mostrar etiquetas en bloque */
+    font-weight: bold; /* Texto en negrita */
+    margin-bottom: 5px; /* Espaciado inferior */
+    color: dark; /* Cambiar el color del texto a blanco */
+    text-align: center; /* Centrar el texto */
+    line-height: 1.2;
+  }
+  
+  
+  .formulario-reserva .cajas {
+    width: 100%; /* Ancho completo */
+    max-width: 800px; /* Ancho máximo */
+    padding: 6px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-bottom: 15px; /* Espaciado inferior */
+    background-color: #f7efe2;
+    border: 2px solid #0d84b3;
+    color:dark; /* Cambiar el color del texto a blanco */
+    text-align: center; /* Centrar el texto */
+    line-height: 1.9;
+  }
+  
+  
+  .formulario-reserva .cajas:hover{
+    background-color: #66a5ad;
+    border: 2px solid #000;
+    box-shadow: 3px 3px 6px #fff;
+  }
+  
+
+  .formulario-reserva select {
+       padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Borde */
+    margin-bottom: 15px; /* Espaciado inferior */
+  }
+  
+  .formulario-reserva .btn{
+    height: 40px;
+    padding: 10px 40px;
+    border-radius: 7px;
+    background-color:#Fa812f;
+    color: #080808;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 0;
+   
+  }
+  
+  .formulario-reserva .btn:hover{
+    box-shadow: 3px 3px 5px #000;
+    background-color: #F44032;
+    color: #000;
+  }
+
+  .formulario-reserva {
+    width: 70%;
+    margin: 0 auto; /* Centrar horizontalmente */
+  }
+
+  .fila {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .columna {
+    flex: 1;
+    padding: 5px;
+  }
+  
+  
+
+
+
+
+  body {
+    background-color: #b1b0b0; /* Código hexadecimal para un tono gris claro */
+    
+  }
+
+    
+
+
+    .contai {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .imag {
+      border: 5px solid #148baf;
+      padding: 10px;
+    }
+    
+    .imag img {
+      width: 100%;
+      height: auto;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+    #comment-section {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 30px;
+      background-color: rgba(245, 245, 245, 0.5); /* Color blanco con 90% de opacidad */
+    }
+    
+    #comment-form textarea {
+      width: 100%;
+      height: 80px;
+      resize: none;
+      margin-bottom: 10px;
+    }
+    
+    #comment-form button {
+      background-color: #ce3535;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      cursor: pointer;
+    }
+    
+    #comment-list {
+      list-style: none;
+      padding: 0;
+    }
+    
+    #comment-list li {
+      background-color: #dfdcdc;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 4px;
+    }
+
+
+    .hidden {
+      display: none;
+    }
+
+
+
+    .gallery {
+      display: flex;
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+    }
+    
+    .gallery-wrapper {
+      display: flex;
+      animation: slide 10s linear infinite;
+    }
+    
+    .gallery img {
+      flex: 0 0 50%;
+      max-width: 100%;
+      height: auto;
+      transition: transform 500ms ease-in-out;
+    }
+    
+    .gallery img:hover {
+      transform: scale(1.1);
+      z-index: 1;
+    }
+    
+    @keyframes slide {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(calc(-50% * var(--image-count)));
+      }
+    }
+    
+
+    .imagen-inicio {
+      width: 100%;
+    height: 800px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script&family=Josefin+Sans&family=Literata:ital@1&family=Metal&family=Paytone+One&family=Playfair+Display&family=Racing+Sans+One&family=Rancho&display=swap');
+
+
+.nav li{ 
+    display: inline-block;
+}
+h2{
+    
+    font-family: 'Racing Sans One', cursive;
+
+}
+
+
+
+.super-top img {
+    box-shadow: 0 0 8px #dd3d3d;
+    padding: 0.5em;
+}
+.super-left img {
+    /*-- agileits --*/ 
+   box-shadow: 0 0 8px #999;
+   padding: 0.5em;
+}
+.super-right img {
+    box-shadow: 0 0 8px #999;
+    padding: 0.5em;
+}
+.super-bottom {
+    margin-top: 2em;
+}
+.super-grid1 h4 {
+    font-size: 1.8em;
+    padding: 0.8em 0 0.3em;
+}
+.super-grid1 p {
+    font-size: 1em;
+    line-height: 1.8em;
+}
+.superlist {
+    padding: 5em 0;
+    background: #F9F9F9;
+}
+
+
